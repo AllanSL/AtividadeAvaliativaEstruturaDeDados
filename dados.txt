@@ -1,0 +1,20 @@
+101 Nome: Joao Silva Idade: 25 Curso: Engenharia
+102 Nome: Maria Santos Idade: 30 Curso: Medicina
+103 Nome: Pedro Alves Idade: 22 Curso: Ciencia da Computacao
+104 Nome: Ana Pereira Idade: 28 Curso: Direito
+105 Nome: Carla Lima Idade: 29 Curso: Arquitetura
+106 Nome: Bruno Fernandes Idade: 26 Curso: Psicologia
+107 Nome: Luciana Souza Idade: 27 Curso: Economia
+108 Nome: Guilherme Santos Idade: 31 Curso: Administracao
+109 Nome: Larissa Rodrigues Idade: 24 Curso: Design
+110 Nome: Rafael Silva Idade: 23 Curso: Engenharia de Software
+111 Nome: Mariana Almeida Idade: 29 Curso: Medicina Veterinaria
+112 Nome: Marcos Oliveira Idade: 33 Curso: Direito
+113 Nome: Ana Clara Ribeiro Idade: 28 Curso: Jornalismo
+114 Nome: Gustavo Santos Idade: 26 Curso: Engenharia Eletrica
+115 Nome: Sofia Ferreira Idade: 22 Curso: Ciencia da Computacao
+116 Nome: Tiago Pereira Idade: 30 Curso: Economia
+117 Nome: Patricia Lima Idade: 27 Curso: Administracao
+118 Nome: Rodrigo Alves Idade: 25 Curso: Fisica
+119 Nome: Isabela Martins Idade: 32 Curso: Odontologia
+120 Nome: Leonardo Fernandes Idade: 29 Curso: Biologia

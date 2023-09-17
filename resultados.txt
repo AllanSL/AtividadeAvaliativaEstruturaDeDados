@@ -1,0 +1,3 @@
+Nome: Marcos Oliveira Idade: 33 Curso: Direito
+Nome: Maria Santos Idade: 30 Curso: Medicina
+Nome: Isabela Martins Idade: 32 Curso: Odontologia
