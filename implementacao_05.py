@@ -1,4 +1,18 @@
 import random
+#Criação da função que armazenara o resultado
+def salvarResultado(arquivoSaida, resultado):
+    try:
+        #Utilização do with para que ao fim da execução do bloco o arquivo seja fechado automáticamente
+        #'a' indica o que o conteúdo sera acrescido ao final e não substituído
+        with open(arquivoSaida, 'a') as file:
+            #Escreve o "resultado" no arquivo aberto anteriormente e adiciona uma quebra de linha ao final
+            file.write(resultado+"\n")
+        #Mensagem caso operação seja feita com sucesso
+        print(f"Resultados gravados em '{arquivoSaida}' com sucesso.")
+    #Tratamento de exceção que será capturada e armazenada na variável "e"
+    except Exception as e:
+        print(f"Ocorreu um erro ao gravar o resultado: {str(e)}")
+
 #Criação da função de pesquisaBinária
 def pesquisaBinaria(lista, chave):
 
@@ -88,3 +102,10 @@ resultado = resultado[0].rstrip(',')
 
 #Imprimir mensagem
 print(resultado)
+
+#Indica onde o resultado será salvo
+arquivoSaida = "resultados.txt"
+#"resultadoPesquisa" recebe o valor da variável resultado criada acima
+resultadoPesquisa = resultado
+#Chamada da função "salvarResultado"
+salvarResultado(arquivoSaida, resultadoPesquisa)

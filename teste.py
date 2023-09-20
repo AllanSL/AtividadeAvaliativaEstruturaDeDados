@@ -1,8 +1,4 @@
-lista=()
+lista = [(3,4, 2), (8,9, 3), (7,3,1)]
+lista.sort(key=lambda x: x[2])
 
-print(type(lista))
-lista=bool(lista)
-print(lista)
-lista=(10)
-lista=bool(lista)
 print(lista)

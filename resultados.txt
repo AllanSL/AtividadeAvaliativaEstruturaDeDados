@@ -1,3 +1,13 @@
-Nome: Marcos Oliveira Idade: 33 Curso: Direito
+Nome: Ana Clara Ribeiro Idade: 28 Curso: Jornalismo
+Nome: Ana Pereira Idade: 28 Curso: Direito
+Nome: Mariana Almeida Idade: 29 Curso: Medicina Veterinaria
+Nome: Patricia Lima Idade: 27 Curso: Administracao
+Nome: Tiago Pereira Idade: 30 Curso: Economia
+Nome: Sofia Ferreira Idade: 22 Curso: Ciencia da Computacao
+Nome: Leonardo Fernandes Idade: 29 Curso: Biologia
+Nome: Mariana Almeida Idade: 29 Curso: Medicina Veterinaria
+Nome: Sofia Ferreira Idade: 22 Curso: Ciencia da Computacao
 Nome: Maria Santos Idade: 30 Curso: Medicina
-Nome: Isabela Martins Idade: 32 Curso: Odontologia
+Nome: Luciana Souza Idade: 27 Curso: Economia
+Nome: Mariana Almeida Idade: 29 Curso: Medicina Veterinaria
+Nome: Lucas Alberto Idade: 19 Curso: Engenharia

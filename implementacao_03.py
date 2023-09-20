@@ -1,38 +1,4 @@
-#Criação da função de pesquisaBinária
-def pesquisaBinaria(lista, chave):
-
-    #Criação de duas variáveis para percorrer os elemento na lista que será realizada a pesquisa binária
-    #"esquerda" é inicializada em 0, que é a primeira posição da lista, "direita" é inicializada com o valor
-    #do tamanho da lista - 1 para indicar o ultimo valor da lista
-    esquerda, direita = 0, len(lista) - 1
-
-    #Loop enquanto "esquerda" for menor ou igual a "direita"
-    while esquerda <= direita:
-
-        #Criação da variável "meio" e atribuíndo a ela o valor da divisão inteira da soma "esquerda + direita" por 2
-        meio = (esquerda + direita) // 2
-
-        #A variável "elementoMeio" recebe o INDICE que corresponde ao valor do "meio" obtido anteriormente
-        elementoMeio = lista[meio]
-
-        #Condição que compara se o "elementoMeio" é idêntico ao valor da chave buscada
-        if elementoMeio[0] == chave:
-            #Se a condição anterior for verdadeira retorna a chave
-            return elementoMeio[1:]
-        
-        #Se a "chave" for menor que o "elementoMeio" significa que a chave está a esquerda indice central da lista ordenada    
-        elif chave < elementoMeio[0]:
-            #Caso a condição acima seja verdadeira a variável "direita" recebe "meio-1" o que reduz o campo de procura
-            #para a metade esquerda da lista
-            direita = meio - 1
-
-        #Caso nenhuma condição anterior seja atendida então ocorre o inverso da condição anterior
-        else:
-            esquerda = meio + 1
-
-    #Caso a chave não seja encontrada
-    return "Objeto não encontrado."
-
+import random
 def pesquisaArquivo(arquivo, chave):
     try:
         #Utilização do with para que ao fim da execução do bloco o arquivo seja fechado automáticamente
@@ -64,10 +30,13 @@ def pesquisaArquivo(arquivo, chave):
             #elemento de cada tupla da lista "dados", que são as chaves
             dados.sort(key=lambda x: x[0])
 
-            #Variável "resultado" recebe o resultado da função "pesquisaBinária"
-            resultado = pesquisaBinaria(dados, chave)
-
-            return resultado
+            #Loop para percorrer o primeiro valor[0] da lista dados, onde encontra-se a chave buscada, então é retornado o
+            #restante da lista, excluindo o valor da chave. CHAVE BUSCADA: 111
+            for item in dados:
+                if item[0] == chave:
+                    return item[1:]
+            #Mensagem a ser mostrada caso a chave não esteja presente na lista
+            return "Chave não encontrada"
         
     #Caso o arquivo não seja encontrado será "ativado" a exceção "FileNotFoundError" que é quando o arquivo não
     #é encontrado, retornando assim uma mensagem
@@ -77,8 +46,8 @@ def pesquisaArquivo(arquivo, chave):
 #Criação da variável "arquivoDados" que recebe o arquivo a ser lido
 arquivoDados = "dados.txt"
 
-#Criação da variável "chaveBuscada" que recebe o valor da chave procurada
-chaveBuscada = "115"
+#Criação da variável "chaveBuscada" que recebe o valor da chave procurada gerado aletóriamente com o metodo randint()
+chaveBuscada = str(random.randint(100,120))
 
 #Criação davariável "resultado" para receber o return da função "pesquisaArquivo"
 resultado = pesquisaArquivo(arquivoDados, chaveBuscada)
