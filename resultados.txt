@@ -11,3 +11,4 @@ Nome: Maria Santos Idade: 30 Curso: Medicina
 Nome: Luciana Souza Idade: 27 Curso: Economia
 Nome: Mariana Almeida Idade: 29 Curso: Medicina Veterinaria
 Nome: Lucas Alberto Idade: 19 Curso: Engenharia
+Nome: Bruno Fernandes Idade: 26 Curso: Psicologia
